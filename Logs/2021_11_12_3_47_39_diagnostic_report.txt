@@ -1,0 +1,35 @@
+Unity Package Manager Diagnostics (v0.1.8)
+============
+Ran 7 checks
+============
+1 succeeded
+5 failed
+1 did not run
+============
+❌ UPM registry reachable (FAIL)
+Make an HTTP request to the UPM package registry
+>> Connection error.
+
+❌ Ping UPM registry (FAIL)
+Measure the latency of the UPM package registry API
+>> No successful pings could be made in 0.024 seconds (30 failed)
+
+❌ Ping UPM download (FAIL)
+Measure the latency of the UPM package download endpoint
+>> No successful pings could be made in 0.133 seconds (30 failed)
+
+❌ UPM registry download speed (FAIL)
+Test the Internet connection using the UPM package registry
+>> Connection error.
+
+❌ Speedtest.net (FAIL)
+Test the Internet connection using Speedtest.net
+>> Connection error.
+
+✅ HTTP proxy environment variables (PASS)
+Detect whether proxy-related environment variables are set (HTTP_PROXY, HTTPS_PROXY, ALL_PROXY, NO_PROXY, UNITY_PROXYSERVER, UNITY_NOPROXY)
+>> No proxy support has been configured through environment variables.
+
+❓ UPM health check (UNKNOWN)
+Start the UPM process and call its health endpoint
+>> Could not find a free port to start UPM on
