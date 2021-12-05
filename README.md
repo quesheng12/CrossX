@@ -4,11 +4,14 @@ https://assetstore.unity.com/packages/3d/props/clipboard-137662
 
 ## Board and Pen Scripts:
 https://www.cnblogs.com/marsir/p/8435240.html
+
 First of all, I want to apologize because I checked again and found that I did follow this tutorial to implement the whiteboard feature. I’ve done a few Unity projects before and put some interesting features into my own repository, some of which are only vaguely remembered and I remember spending some time on them.  T-T
 
 This tutorial is intended to run in the context of VRTK and Unity 5, either of which my project does not meet. The main thing I did was migrate it to Unity 2020. At the time I spent considerable time and energy dealing with conflicts, creating demos, and trying to rewrite code. I was so familiar with it that I did not recall that it didn’t come from me when I was working on the project.
 
-## Environment, Building structure and some furniture: https://assetstore.unity.com/packages/3d/environments/flooded-grounds-48529
+## Environment, Building structure and some furniture: 
+https://assetstore.unity.com/packages/3d/environments/flooded-grounds-48529
+
 Most of the game scene comes from a building in this Asset. I only made some modifications like some of the furniture’s sizes and positions has been rearranged to fit the VR experience, and some of the improper lighting has been altered. I also animated some of the props in the scene (such as doors and the key) to interact with the player or to respond to the process.
 
 ## Zombie Prefab and animator: 
@@ -33,5 +36,6 @@ What I do in this part is set up the collider for the character and write the co
 
 ## FPS Creator Kit:
 https://learn.unity.com/project/chuang-zuo-zhe-tao-jian-fps
+
 The tutorial you recommended for me, the inspiration for the second half of the game, did not use specific resources or codes.
 
